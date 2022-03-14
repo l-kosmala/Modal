@@ -112,19 +112,19 @@ a {
     max-width: var(--fixed-width);
 }
 
-.modal-btn {
+.btn__modal {
     margin-top: 2rem;
     background: var(--clr-primary-5);
     border-color: var(--clr-primary-5);
     color: var(--clr-white);
 }
 
-  .modal-btn:hover {
+.btn__modal:hover {
     background: transparent;
     color: var(--clr-primary-5);
 }
 
-.modal-overlay {
+.modal__overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -138,12 +138,12 @@ a {
     z-index: -10;
 }
 /* OPEN/CLOSE MODAL */
-.open-modal {
+.modal__open {
     visibility: visible;
     z-index: 10;
 }
 
-.modal-container {
+.modal__container {
     background: var(--clr-white);
     border-radius: var(--radius);
     width: 90vw;
@@ -155,7 +155,7 @@ a {
     position: relative;
 }
 
-.close-btn {
+.btn__close {
     position: absolute;
     top: 1rem;
     right: 1rem;
